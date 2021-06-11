@@ -1,4 +1,4 @@
-package com.self.dsa;
+package com.self.dsa.trees;
 
 class TreeNode {
 	int val;
