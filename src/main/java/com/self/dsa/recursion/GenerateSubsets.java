@@ -7,9 +7,7 @@ import java.util.List;
 public class GenerateSubsets {
 
     private static List<String> getSubsets(String input) {
-
         return getSubsets(input, 0);
-
     }
 
     private static List<String> getSubsets(String input, int i) {
@@ -33,8 +31,6 @@ public class GenerateSubsets {
     }
 
     public static void main(String[] args) {
-
         System.out.println(getSubsets("abc"));
-
     }
 }

@@ -12,7 +12,6 @@ public class PrintAllSubsetsWithGivenSum {
 
     private static List<List<Integer>> getSubsetsWithSum(List<Integer> input, int i, int sum) {
 
-
         if (sum == 0) {
             List<Integer> subset = new ArrayList<>();
             List<List<Integer>> subsets = new ArrayList<>();

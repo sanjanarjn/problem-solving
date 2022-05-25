@@ -20,9 +20,4 @@ public class RopeCutting {
         }
         return 1 + max;
     }
-
-    public static void main(String[] args) {
-
-
-    }
 }
