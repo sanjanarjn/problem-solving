@@ -1,4 +1,6 @@
-public static void mergeSort(int[] input){
+public class MergeSort {
+	
+	public static void mergeSort(int[] input){
 		
         int[] sorted = mergeSort(input, 0, input.length - 1);
     	for(int i = 0; i < input.length; i++) {
@@ -54,3 +56,7 @@ public static void mergeSort(int[] input){
          }
          return c;
      }
+
+	
+}
+
