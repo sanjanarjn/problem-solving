@@ -27,7 +27,7 @@ class Detail {
 
 public class BinaryTreeCameras {
 
-    public int minCameraCover(TreeNode root) {
+    public int minCameraCover(BinaryTreeNode root) {
 
 
         Detail detail = minCam(root);
@@ -39,7 +39,7 @@ public class BinaryTreeCameras {
         return minCam;
     }
 
-    private Detail minCam(TreeNode node) {
+    private Detail minCam(BinaryTreeNode node) {
 
         if (node == null) {
             return new Detail(0, true, false);
