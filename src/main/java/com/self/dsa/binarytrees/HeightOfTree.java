@@ -1,4 +1,4 @@
-package com.self.dsa.trees;
+package com.self.dsa.binarytrees;
 
 /**
     10

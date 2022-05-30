@@ -1,4 +1,4 @@
-package com.self.dsa.trees;
+package com.self.dsa.binarytrees;
 
 /**
  * You are given the root of a binary tree. We install cameras on the tree nodes

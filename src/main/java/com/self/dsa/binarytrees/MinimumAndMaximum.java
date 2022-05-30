@@ -1,4 +1,4 @@
-package com.self.dsa.trees;
+package com.self.dsa.binarytrees;
 
 class Pair<T, U> {
     T minimum;

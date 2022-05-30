@@ -1,4 +1,4 @@
-package com.self.dsa.trees;
+package com.self.dsa.binarytrees;
 
 public class IsNodePresent {
     public static boolean isNodePresent(BinaryTreeNode<Integer> root, int x) {

@@ -1,4 +1,4 @@
-package com.self.dsa.trees;
+package com.self.dsa.binarytrees;
 
 public class CountNodesGreaterThanX {
     public static int countNodesGreaterThanX(BinaryTreeNode<Integer> root, int x) {
