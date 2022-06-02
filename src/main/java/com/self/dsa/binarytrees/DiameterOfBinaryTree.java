@@ -8,16 +8,16 @@ package com.self.dsa.binarytrees;
  Here, the distance is measured in terms of the total number of nodes present along the path of the two leaf nodes, including both the leaves.
 
  */
-class Answer {
+class DiameterAnswer {
 
     int diameter;
     int height;
 
-    public Answer() {
+    public DiameterAnswer() {
 
     }
 
-    public Answer(int dia, int height) {
+    public DiameterAnswer(int dia, int height) {
         this.diameter = dia;
         this.height = height;
     }
@@ -29,18 +29,18 @@ public class DiameterOfBinaryTree {
         return 1 + findDiameter(root).diameter;
     }
 
-    private static Answer findDiameter(BinaryTreeNode<Integer> node) {
+    private static DiameterAnswer findDiameter(BinaryTreeNode<Integer> node) {
 
         if(node == null) {
-            return new Answer(0, 0);
+            return new DiameterAnswer(0, 0);
         }
 
-        Answer left = findDiameter(node.left);
-        Answer right = findDiameter(node.right);
+        DiameterAnswer left = findDiameter(node.left);
+        DiameterAnswer right = findDiameter(node.right);
 
         int height = 1 + Math.max(left.height, right.height);
         int diameter = Math.max(left.height + right.height, Math.max(left.diameter, right.diameter));
 
-        return new Answer(diameter, height);
+        return new DiameterAnswer(diameter, height);
     }
 }
